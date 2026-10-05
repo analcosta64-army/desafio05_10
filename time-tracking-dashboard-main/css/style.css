@@ -1,0 +1,231 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f1221;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* area principal */
+
+.dashboard {
+    width: 830px;
+
+    display: grid;
+    grid-template-columns: 185px 1fr;
+    gap: 20px;
+}
+
+
+/* perfil */
+
+.perfil {
+    background-color: #20204b;
+    border-radius: 10px;
+    overflow: hidden;
+
+    height: 373px;
+}
+
+.perfil-topo {
+    background-color: #5b3ee4;
+
+    height: 255px;
+
+    padding: 25px 23px;
+}
+
+.perfil img {
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    border: 3px solid white;
+
+    object-fit: cover;
+
+    margin-bottom: 27px;
+}
+
+.perfil-topo p {
+    color: #bdb7e9;
+    font-size: 12px;
+
+    margin-bottom: 5px;
+}
+
+.perfil h1 {
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 1.15;
+}
+
+
+/* periodos */
+
+.periodos {
+    display: flex;
+    flex-direction: column;
+
+    gap: 17px;
+
+    padding: 20px 23px;
+}
+
+.periodos span {
+    color: #aaa9c8;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.periodos .ativo {
+    color: white;
+}
+
+
+/* cartoes */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+    
+}
+
+
+/* container dos cartoes */
+
+.card-container {
+    height: 177px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+/* cores dos cartoes de tras */
+
+.work {
+    background-color: #ff8b68;
+}
+
+.play {
+    background-color: #56b9df;
+}
+
+.study {
+    background-color: #ff5b7c;
+}
+
+.exercise {
+    background-color: #43cf86;
+}
+
+.social {
+    background-color: #7835d3;
+}
+
+.selfcare {
+    background-color: #f5cc62;
+}
+
+
+/* iconi */
+
+.card-icon {
+    height: 50px;
+
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 18px;
+
+    font-size: 30px;
+}
+
+
+/* cartao principal */
+
+.card {
+    background-color: #22224f;
+
+    height: 143px;
+
+    border-radius: 5px;
+
+    padding: 20px 21px;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+
+/* titulo */
+
+.card-titulo {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-titulo h2 {
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.card-titulo span {
+    color: #bdbbe0;
+
+    font-size: 15px;
+
+    letter-spacing: 2px;
+}
+
+
+/* horas */
+
+.horas {
+    font-size: 36px;
+
+    font-weight: 300;
+
+    margin-top: 18px;
+}
+
+
+/* semana anterior */
+
+.semana {
+    color: #aaa9c8;
+
+    font-size: 11px;
+
+    margin-top: 6px;
+}
